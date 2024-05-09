@@ -1,0 +1,15 @@
+import pandas as pd
+
+def parse_vina_output(filename):
+    results = []
+    with open(filename, 'r') as file:
+        for line in file:
+            if "REMARK VINA RESULT" in line:
+                parts = line.split()
+                binding_affinity = float(parts[3])
+                results.append(binding_affinity)
+    return results
+
+# Usage
+results = parse_vina_output('output.pdbqt')
+print("Binding Affinities:", results)

@@ -1,0 +1,6 @@
+#!/bin/bash
+# Prepare the receptor
+pythonsh /path/to/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_receptor4.py -r protein.pdb -o protein.pdbqt
+
+# Prepare the ligand
+pythonsh /path/to/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l ligand.pdb -o ligand.pdbqt

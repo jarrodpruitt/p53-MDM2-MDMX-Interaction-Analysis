@@ -1,0 +1,3 @@
+#!/bin/bash
+# Run docking
+vina --config config.txt

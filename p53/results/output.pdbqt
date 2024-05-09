@@ -1,0 +1,7 @@
+REMARK VINA RESULT:   -9.6 0.000
+ROOT
+ATOM      1  C   LIG A   1      31.907  17.176  22.215  0.00  0.00           C  
+ATOM      2  O   LIG A   1      31.007  16.437  21.697  0.00  0.00           O  
+...
+ENDROOT
+TORSDOF 4
